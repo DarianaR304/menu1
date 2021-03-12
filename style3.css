@@ -1,0 +1,46 @@
+body {
+	background-color: white; 
+}
+
+h1 {
+	font-family: 'Sigmar One'; font-size: 50px;
+	background-color: #73C6B6 ;
+	text-align: center;
+}
+
+section {
+	background-color: #FFD633 ;
+	width: 70%;
+	margin:20px auto;
+	padding:30px;
+	text-align: left;
+}
+
+h2 {
+	 font-family: 'Atma'; font-size: 40px;color: #73C6B6;
+	 text-align: center;
+	 background-color: white;
+}
+
+img {
+	width: 100%;
+    height:150px;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+}
+
+p{
+	font-family: 'Atma'; font-size: 25px;
+	text-align: justify;
+}
+
+h3 {
+	font-family: 'Atma'; font-size: 25px;
+	text-align: center;
+}
+
+a {
+	font-family: 'Balsamiq Sans'; font-size: 20px;
+	text-decoration: none;
+}

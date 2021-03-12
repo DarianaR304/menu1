@@ -1,0 +1,107 @@
+body {
+	background-color: white;
+	background:
+	 linear-gradient(
+	 	rgba(0,0,0,100%),
+	 	rgba(0,0,0,95%),
+	 	rgba(0,0,0,80%),
+	 	rgba(0,0,0,35%),
+	 	rgba(0,0,0,10%),
+	 	rgba(0,0,0,0%)) no-repeat,
+	url(img/ensalada2.jpg);
+
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Sigmar One'; font-size: 35px;
+	background-color: #76D7C4 ;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.nav {
+	border-style: solid;
+	/*border-width: 2px;*/
+	/*display: inline-block;*/
+	float: right;
+	margin: 0px 5px;
+	width: 48%
+	/*background-color: white;*/
+	text-align: right;
+}
+
+.panel {
+	width: 45%;
+	height: 540px;
+	background-color: black;
+	color: white;
+	opacity: 90%;
+	padding: 50px;
+	padding-top: 60px;
+
+}
+
+ul {
+	/*background-color: orange;¨*/
+}
+
+/*----------------------------------------
+	REGLA DE ITEMS DE LISTA DESORDENADA
+----------------------------------------*/
+
+.nav ul li {
+	/*float: right;*/
+	margin: 0px 25px;
+	text-align: center;
+	/*width: 110px;*/
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
+	/*border-color: grey;*/
+	display: inline-block;
+	border-radius: 60px 20px;
+}
+
+li:hover {
+	background-color: grey;
+	color: white;
+}
+
+li{
+	color: white;
+	font-size: 25px;
+}
+
+a {
+	font-family: 'Balsamiq Sans'; font-size: 50px;
+	text-decoration: none;
+	color: grey;
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+	/*border-style: solid; 
+	border-width: 1px;*/
+}
+	
+a:hover {
+	color: inherit;
+}
+
+p {
+	text-align: justify;
+	color: white;
+}
+
+img {
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 10px;
+}
+/*section {
+	width: 628px;
+	height: 700px;
+	margin-left: 50px;
+}*/
